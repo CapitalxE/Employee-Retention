@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load your trained machine learning model
-model = joblib.load(r"C:\Users\elvin\OneDrive\Documents\Data Science\Project\Sandbox\my_model.pkl")
+model = joblib.load("my_model.pkl")
 
 # Define mappings according to your preprocessing
 gender_mapping = {'Male': 0, 'Female': 1, 'Other': 2}
